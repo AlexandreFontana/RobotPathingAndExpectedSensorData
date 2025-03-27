@@ -18,4 +18,5 @@ In OBS mode you can draw the obstacles in the environment. You click and drag to
 <img src="https://github.com/user-attachments/assets/b05fda2b-5667-4c75-bbde-d855416f4b6b" alt="Example of drawing rectangles with GUI" style="width:50%; height:auto;">
 
 In RAY mode, the program calculates the sensor positions, directions and whether or not it collides with an obstacle then draws it to the screen. You can see the sensor positions (green circles), the sensor ray (red line) and the collision point (purple point). If that sensor position has no line then that sensor does not collide when the robot is at that position. The sensor positions can be altered by changing the sensorPos array in main.
+
 <img src="https://github.com/user-attachments/assets/8d34341f-1e33-43b3-8dcb-25fbe45b407b" alt="Example of rays being calculated" style="width:50%; height:auto;">
